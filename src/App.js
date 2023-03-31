@@ -4,6 +4,7 @@ import Navbar from '../src/navegacion/Navbar'
 import Episodio from './paginas/Episodio'
 import Inicio from './paginas/Inicio'
 import Personaje from './paginas/Personaje'
+import Footer from './components/Footer';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Route path='./Personaje' element={<Personaje/>}/>
           <Route path='./Episodio' element={<Episodio/>}/>
         </Routes>
+        <Footer/>
 
 
       </Router>
