@@ -22,7 +22,7 @@ export const Cardrick =({url})=>{
     <li className="list-group-item text-bg-success mb-3">Estado: {data.status}</li>
     <li className="list-group-item text-bg-success mb-3">Especie: {data.species}</li>
     <li className="list-group-item text-bg-success mb-3">Genero: {data.gender}</li>
-    /*<li className="list-group-item text-bg-success mb-3">Episodio: {data.episode.length}</li>*/
+    <li className="list-group-item text-bg-success mb-3">Episodio: {data.episode.length}</li>
   </ul>
   
 </div>

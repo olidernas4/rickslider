@@ -20,16 +20,14 @@ const Footer = () => {
               <li> 
                 <Link to ='/Personaje'>Personaje</Link>
               </li>
-              <li> 
-                <Link to ='/Episodio'>Episodio</Link>
-              </li>
+              
             </ul>
             <ul className='col-12 col-md-3 list-unstyled'>
               <li className='font-weight-bold mb-2'> ME PUEDEN SEGUIR</li>
               <li className='d-flex justify-content-between'>
-                <li className='bi bi-facebook'/>
+              <a href="#"><i class="bi bi-facebook"></i></a>
                 <li className='bi bi-instagram'/>
-                <li className='bi bi-github'/>
+                <a href="https://github.com/olidernas4"><i class="bi bi-github"></i></a>
 
                 
               </li>
