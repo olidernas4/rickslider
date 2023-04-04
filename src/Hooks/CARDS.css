@@ -1,0 +1,18 @@
+.card{
+    box-shadow: shadow 1px 1px 1px green;
+    margin: 15px;
+}
+
+.cards{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: -2rem;
+    padding: -2rem;
+}
+
+.cards-item{
+    display: flex;
+    padding: 2rem;
+}

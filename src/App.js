@@ -5,6 +5,7 @@ import Episodio from './paginas/Episodio'
 import Inicio from './paginas/Inicio'
 import Personaje from './paginas/Personaje'
 import Footer from './components/Footer';
+import Generador from './paginas/Generador'
 
 
 function App() {
@@ -14,8 +15,9 @@ function App() {
         <Navbar />
         <Routes>
           <Route path='/' element={<Inicio/>}/>
-          <Route path='./Personaje' element={<Personaje/>}/>
-          <Route path='./Episodio' element={<Episodio/>}/>
+          <Route path='/Personaje' element={<Personaje/>}/>
+          <Route path='/Episodio' element={<Episodio/>}/>
+          <Route path='/Generador' element={<Generador/>}/>
         </Routes>
         <Footer/>
 
